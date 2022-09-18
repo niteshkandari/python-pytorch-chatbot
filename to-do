@@ -1,0 +1,17 @@
+stemming,tokenizing, bag of words
+create training data
+PyTorch model and training
+save/load model and implement the chat
+
+NLP pipeline
+
+"is anyone there?"
+    (tokenize)
+["is","anyone","there","?"]
+    (lower + stem)
+["is","anyon", "there","?"] 
+    (exclude punctuations characters)
+["is","anyon", "there"]
+    (bag of words) 
+X [0,0,0,1,0,1,0,1]
+                
